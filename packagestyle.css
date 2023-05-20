@@ -363,7 +363,60 @@ h3 {
     -o-transition: all 0.35s ease 0.15s;
     transition: all 0.35s ease 0.15s;
   }
+        /*footer*/
 
+        .map-icon{
+            margin: 30px 0;
+        }
+    .map-icon .fa-brands{
+        color: #2ED573;
+        padding: 12px;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0;
+        margin-left: 10px;
+        width: 60px;
+    }
+    
+    
+    .con p{
+        font-family: 'Playfair Display';
+        color: #ffffff;
+        margin-bottom: 80px;
+        text-align: left;
+        font-size:  60px;
+    }
+    .con h4{
+        padding: 10px 0;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: left;
+        font-weight: 400;
+    }
+    .con{
+        background-color: #2F3542;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .copy{
+        background-color: #252525;
+        color: #ffffff;
+        padding: 8px 0;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .copy ul li{
+        list-style: none;
+        color: #ababab;
+    }
 @media  (max-width:1007px) {
 
     /*nav menu*/
@@ -546,4 +599,39 @@ h3 {
         padding: 20px;
         margin: 20px 5%;
       }
+
+
+      .con{
+        display: block;
+        padding: 20px 0;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }         
+    .map{
+        width: 100%;
+        height: 479px;
+    }
+    .con p{
+        padding-top: 30px;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+    .con h4{
+        text-align: center;
+    }
+    .row-f2{
+        margin: 0 5%;
+
+    }
+    .map-icon{
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copy ul li{
+        font-size: 10px;
+    }
 }
