@@ -394,6 +394,8 @@ h3 {
         color: #ffffff;
         text-align: left;
         font-weight: 400;
+        margin: 0;
+        width: 100%;
     }
     .con{
         background-color: #2F3542;
