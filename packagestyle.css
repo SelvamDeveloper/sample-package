@@ -125,7 +125,7 @@ h1{
 }
 .head{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto 0;
     flex-wrap: wrap;
     flex-basis: 40%;
