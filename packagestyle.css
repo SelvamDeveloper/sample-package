@@ -113,11 +113,17 @@ h1{
     justify-content: space-between;
     padding: 20px 0;
 }
+.p-1{
+    width: 250px;
+    position: relative;
+    bottom: -63px;
+    left: -29%;
+}
 .pack-1{
     background: linear-gradient(91.37deg, rgba(0, 0, 0, 0.5) 0%, rgba(82, 82, 82, 0.5) 100.11%);
     border-radius: 2px;
     margin: 20px 3%;
-    padding: 20px 40px;
+    padding: 20px 40px 80px 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -635,5 +641,19 @@ h3 {
     }
     .copy ul li{
         font-size: 10px;
+    }
+
+    /* 1 package  */
+    .pack-1{
+        padding-bottom: 70px;
+    }
+    .p-1{
+        left: 0;
+        width: 100%;
+        position: relative;
+        bottom: -69px;
+    }
+    .p-1 button{
+        width: 100%;
     }
 }
